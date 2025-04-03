@@ -7,7 +7,14 @@ A DiY microscope based on Raspberry Pi Zero W, Raspberry Pi HQ Camera and a micr
 - Shutdown via GPIO21
 - Write-protected boot partition to allow yanking the power
 
-**Note**: currently, this project requires Debian Buster because it depends on `raspivid`. I have plans to port it to Debian Bookworm in the future.
+**Note**: this is a WiP branch to port the project to Debian Bookworm.
+
+## ToDos
+
+- [ ] Rewrite `camera.sh` in Python using picamera2 and opencv
+- [ ] Replace `rc.local` with a proper Systemd Unit
+- [ ] Replace `shutdown.py` with dtoverlay
+- [ ] Update README
 
 ## Required hardware
 - Raspberry Pi Zero 2 W ([Pimoroni](https://shop.pimoroni.com/products/raspberry-pi-zero-2-w?variant=39493046075475)) (other Pis will probably work as well)
