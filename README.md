@@ -16,6 +16,13 @@ A DiY microscope based on Raspberry Pi Zero W, Raspberry Pi HQ Camera and a micr
 - [ ] Replace `shutdown.py` with dtoverlay
 - [ ] Update README
 
+### Wishlist
+- [ ] Add LED ring with 3D printed mount
+- [ ] Add shutter button to take picture / video
+- [ ] Automatically upload pictures / videos to Nextcloud
+- [ ] Add 3D printed case with cutouts for the buttons
+- [ ] Add pictures
+
 ## Required hardware
 - Raspberry Pi Zero 2 W ([Pimoroni](https://shop.pimoroni.com/products/raspberry-pi-zero-2-w?variant=39493046075475)) (other Pis will probably work as well)
 - Raspberry Pi HQ Camera ([Pimoroni](https://shop.pimoroni.com/products/raspberry-pi-high-quality-camera?variant=31675712241747))
